@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -8,5 +8,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('angularfirstapplication');
+  protected readonly title = ('Angular');
+  Name ="Sameer";
+  Course="React";
+  Address="ECPhase";
+  X = 20;
 }
